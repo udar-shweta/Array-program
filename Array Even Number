@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Arraylevenno
+{
+public staic void main(String[]args)
+{
+Scanner sc=new Scanner(System.in);
+int int_arr[]=new int[5];
+System.out.println("enter the value of int array");
+for (int i=0;i<int_arr.length;i++)
+{
+int_arr[i]=sc.nextInt();
+if (int_arr[i]%2==0;
+{
+System.out.println("the number is even" +int_arr[i]);
