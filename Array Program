@@ -1,0 +1,18 @@
+//1st array program
+class array_1
+{
+// main method
+public static void main(String[]args)
+{
+Scanner sc=new Scanner(System.in)
+{
+//variable declaration of int datatype,element value is 10
+int int_arr[]=new int[10];
+System.out.println("enter the element of int datatype");
+//to repatation of for loop
+for (int i=0,i<int_arr.length;i++)
+{
+int_arr[i]sc.nextint();
+} //end for loop                       
+} //end main method 
+} //end class block
